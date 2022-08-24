@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head id="phoneHead">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VCS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="masterCSS.css">
+
+        
+        <div id="pageName"> Main </div>
+        <div id="timeLabel"> 2100.00Z</div> 
+        <div id="modeLabel"> SIM </div>
+        <div id="tx"> TX </div>
+        <div id="rx"> RX </div>
+      
+    </head>
+    <body>
+
+        <div id="trainingMsg"> "Hi again. Now let's learn how to use the VCS landline Let's start with a tour of the 'Main' tab. Click when you're ready."</div>
+        <div  class="leftContainer">
+            <p id="leftLabel"> RADIOS</p>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>        
+
+        </div>
+        <div  class="centreContainer" id="centreContainer">
+            <p id="centreLabel"> TELEPHONY</p>
+            <button class="callerButton" id="IDOS"> IDO SOUTH </button>
+            <button class="callerButton" id="IDON"> IDO NORTH </button>
+            <button class="callerButton" id="WC1"> WC 1</button>
+            <button class="callerButton" id="WC2"> WC 2 </button>
+            <button class="callerButton" id="FA"> FA </button>
+            <button class="callerButton" id="SDcall"> SD </button>
+            <button class="callerButton" id="FICO"> FICO </button>
+            <button class="callerButton" id="NATREP"> NATREP </button>
+
+        </div>
+        <div  class="rightContainer"> 
+            <p id="rightLabel"> FUNCTION</p>
+            <button class="functionButton" id="RX"> RX </button>
+            <button class="functionButton" id="TX"> TX </button>
+            <button class="functionButton" id="dialPad"> DialPad </button>
+            <button class="functionButton" id="transfer"> XFR </button>
+            <button class="functionButton" id="conference"> Conf </button>
+            <button class="functionButton" id="log"> Log </button>
+            <button class="functionButton" id="phoneBook"> Phone Book </button>
+            <button class="functionButton" id="clear"> Clear Call </button>
+
+
+        </div>
+
+        <div id="callList"> 
+            <button style="display: none" class="callButton" id="call1"> Placeholder </button>
+            <button style="display: none" class="callButton" id="call2"> Placeholder </button>
+            <button style="display: none" class="callButton" id="call3"> Placeholder </button>
+
+        </div>
+        
+        <script src="phoneCalls.js" async defer></script>
+    </body>
+    <footer>
+        <button class="footerButton" id="roleButton" onclick="location.href='vcsTemplate.html'"> Role</button>
+        <button class="footerButton" id="mainButton" onclick="location.href='phoneCalls.html'"> Main</button>
+        <button class="footerButton" id="radioButton"> Radio</button>
+        <button class="footerButton" id="phoneButton"> Phone</button>
+        <button class="footerButton" id="intercomButton"> Intercom</button>
+        <button class="footerButton" id="settingsButton"> Settings</button>
+        <button class="footerButton" id="homeButton" onclick="location.href='menu.html'">HOME</button>
+    </footer>
+</html>

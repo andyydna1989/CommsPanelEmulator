@@ -1,0 +1,327 @@
+html{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    border-style:groove;
+    border-radius: 3px;
+    padding: 3px;
+    margin:5px;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    padding: 3px;
+    margin:5px;
+    color: white;
+}
+
+#passwordBox{
+    margin: 5px;
+    border-style: groove;
+    color: black;
+
+}
+button{
+    border-radius: 3px;
+    border-style: ridge;
+    background-color: rgba(147, 112, 216, 0.404);
+    padding: 4px;
+    font-family: 'Open Sans', sans-serif;
+    margin:auto;
+    width:50%;
+    display:block;
+    font-weight: bold;
+    color: white;
+}
+button:active {
+    background-color: rgba(120, 92, 177, 0.404);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+.body{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#logInLink{
+    border-style: solid;
+    border-radius: 3px;
+    background-color: white;
+    border-color: black;
+    padding:3px;
+}
+
+.menuLink{
+    border-style: solid;
+    border-radius: 3px;
+    background-color: rgba(147, 112, 216, 0.404);
+    border-color: black;
+    padding:3px;
+    margin: 15px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    color: white;
+}
+
+footer{
+    position: absolute;
+    top: 650px;   
+    width: 100%
+}
+.footerButton{
+    display: inline-block;
+    margin:auto;
+    width: 10%;
+    color: black;
+    background-color: darkgray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    overflow:hidden;
+    vertical-align: bottom;
+}
+
+#homeButton{
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+#modeLabel{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    float: right;
+    margin-right: 20px
+    
+}
+#timeLabel{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    float: right;
+    
+}
+#pageName{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin: auto;
+    width: 10%;
+    font-weight: bolder;   
+    font-size: large;
+}
+
+#leftLabel{
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    margin:auto;
+    width:10%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+#centreLabel{
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    margin:auto;
+    width:10%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#rightLabel{
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    margin:20px;
+    width:10%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#tx{
+    width: 5%;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(63, 63, 63);
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: white;
+    text-align: center;
+    padding:2px;
+}
+#rx{
+    width: 5%;
+    height: 20px;
+    display: inline-block;
+    background-color: rgb(63, 63, 63);
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: white;
+    text-align: center;
+    padding:2px;
+}
+
+.leftContainer{
+    width:20%;
+    height: 550px;
+    position:absolute;
+    top: 85px;
+    background-color: lightgray;
+    border: solid;
+    border-width: 3px;
+    border-radius: 2px;
+    border-color: darkblue;
+}
+.centreContainer{
+    width:49%;
+    height: 550px;
+    left:20%;
+    top: 85px;
+    position: absolute;
+    margin: auto;
+    background-color: lightgray;
+    border: solid;
+    border-width: 3px;
+    border-radius: 2px;
+    border-color: darkblue;
+}
+.rightContainer{
+    width:22%;
+    height: 550px;
+    position:absolute;
+    left:68%;
+    top: 85px;
+    margin: auto;
+    background-color: lightgray;
+    border: solid;
+    border-width: 3px;
+    border-radius: 2px;
+    border-color: darkblue;
+}
+
+.radioConatainer{
+    display: inline-block;
+    width: 18%;
+    margin: auto;
+}
+
+.radioButton{
+    display: inline-block;
+    width: 70%;
+    height: 15%;
+    min-height: 30px;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.PTT{
+    display: inline-block;
+    width: 20%;
+    min-height: 30px;
+    margin: auto;
+    background-color: rgba(184, 0, 0, 0.897);
+}
+
+.roleButton{
+background-color: rgba(224, 192, 9, 0.897);    
+margin:3px;
+width: 15%;
+height: 10%;
+display:inline;
+}
+
+.callerButton{
+    background-color: rgba(2, 180, 2, 0.897);    
+    margin:3px;
+    width: 15%;
+    height: 10%;
+    display:inline;
+    }
+
+#SDcall{
+    background-color: rgba(184, 0, 0, 0.897);     
+}    
+
+.callButton{
+    position: absolute;
+    float: right;
+    right: 1%;
+    background-color: lightgray;
+    width: 8%;
+    height: 5%;
+    margin: 1px;
+    min-height: 40px;
+}
+
+#call1{
+    top: 580px;
+}
+
+#call2{
+    top: 500px;
+}
+
+#call3{
+    top: 420px;
+}
+
+#conference{
+    background-color: gray;
+}
+
+#transfer{
+    background-color: gray;
+}
+
+
+.functionButton{
+    background-color:  rgba(147, 112, 216, 0.404);    
+    margin:3px;
+    width: 45%;
+    height: 10%;
+    display:inline;
+    }
+
+.instanceButton{
+background-color: rgba(224, 192, 9, 0.897);    
+margin:3px;
+width: 15%;
+height: 10%;
+display:none;
+}
+
+.sideButton{
+    background-color: rgba(224, 192, 9, 0.897);    
+    margin:3px;
+    width: 15%;
+    height: 10%;
+    display:none;
+    }
+
+    #trainingMsg{
+    position:fixed;
+    display:inline-block;
+    width: 50%;
+    margin:auto;
+    left: 25%;
+    top: 60%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    color:black;
+    z-index: 10;
+    border-style: ridge;
+    border-width: 5px;
+    padding: 3px;
+    }
