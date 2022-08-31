@@ -249,6 +249,22 @@ display:inline;
     display:inline;
     }
 
+    .selectRadioButton{
+        background-color: rgba(2, 180, 2, 0.897);    
+        margin:3px;
+        width: 15%;
+        height: 10%;
+        display:inline;
+        }
+
+        .insecSelectRadioButton{
+            background-color: rgba(184, 0, 0, 0.897);     
+        margin:3px;
+        width: 15%;
+        height: 10%;
+        display:inline;
+        }
+
 #SDcall{
     background-color: rgba(184, 0, 0, 0.897);     
 }    

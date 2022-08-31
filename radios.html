@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+    <head id="phoneHead">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VCS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="masterCSS.css">
+
+        
+        <div id="pageName"> Main </div>
+        <div id="timeLabel"> 2100.00Z</div> 
+        <div id="modeLabel"> SIM </div>
+        <div id="tx"> TX </div>
+        <div id="rx"> RX </div>
+      
+    </head>
+    <body>
+
+        <div id="trainingMsg"> Welcome to the radio assignment tutorial, this is a very quick one to teach you how to assign a radio from the Radio tab. Click here when ready."</div>
+        <div  class="leftContainer">
+            <p id="leftLabel"> RADIOS</p>
+            <div class="radioContainer"> 
+            <button class="radioButton" id="rb1"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>
+            <div class="radioContainer"> 
+            <button class="radioButton"> Empty </button>
+            <button class="PTT"> PTT </button>
+            </div>
+            <br>        
+
+        </div>
+        <div  class="centreContainer" id="centreContainer">
+            <p id="centreLabel"> TELEPHONY</p>
+            <button class="selectRadioButton" id="NT01"> NT01 <br> TAD 014 </button>
+            <button class="selectRadioButton" id="NT02"> NT02 <br> TAD 020 </button>
+            <button class="insecSelectRadioButton" id="SW05"> SW05 <br> TAD 109 </button>
+            <button class="selectRadioButton" id="BL51"> BL51 <br> TAD 141  </button>
+            <button class="insecSelectRadioButton" id="VY05"> VY05 <br> TAD 021 </button>
+            <button class="insecSelectRadioButton" id="PR01"> PR01 <br> TAD 121  </button>
+            <button class="insecSelectRadioButton" id="PR02"> PR02 <br> TAD 015 </button>
+            <button class="selectRadioButton" id="BU10"> BU10 <br> TAD 050  </button>
+
+        </div>
+        <div  class="rightContainer"> 
+            <p id="rightLabel"> FUNCTION</p>
+            <button class="functionButton" id="RX"> RX </button>
+            <button class="functionButton" id="TX"> TX </button>
+            <button class="functionButton" id="clear"> Clear </button>
+
+
+        </div>
+
+        <div id="callList"> 
+            <button style="display: none" class="callButton" id="call1"> Placeholder </button>
+            <button style="display: none" class="callButton" id="call2"> Placeholder </button>
+            <button style="display: none" class="callButton" id="call3"> Placeholder </button>
+
+        </div>
+        
+        <script src="radios.js" async defer></script>
+    </body>
+    <footer>
+        <button class="footerButton" id="roleButton" onclick="location.href='vcsTemplate.html'"> Role</button>
+        <button class="footerButton" id="mainButton" onclick="location.href='phoneCalls.html'"> Main</button>
+        <button class="footerButton" id="radioButton" onclick="location.href='radios.html'"> Radio</button>
+        <button class="footerButton" id="phoneButton"> Phone</button>
+        <button class="footerButton" id="intercomButton"> Intercom</button>
+        <button class="footerButton" id="settingsButton"> Settings</button>
+        <button class="footerButton" id="homeButton" onclick="location.href='menu.html'">HOME</button>
+    </footer>
+</html>
