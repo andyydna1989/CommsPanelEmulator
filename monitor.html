@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>VCS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="masterCSS.css">
+        <div id="pageName"> Role </div>
+        <div id="timeLabel"> 2100.00Z</div> 
+        <div id="modeLabel"> SIM </div>
+        <br>
+        <br>
+    </head>
+    <body>
+
+        <div id="trainingMsg"> For this tutorial we're back on the Role tab, but this time we're already logged in. We're going to learn how to monitor another role's communicaions. Click here when ready.</div>
+        <div  class="leftContainer">
+            
+        </div>
+        <div  class="centreContainer">
+            <p id="centreLabel"> ROLE</p>
+            <button class="roleButton" id="IDO"> IDO </button>
+            <button class="roleButton" id="WC"> WC </button>
+            <button class="roleButton" id="SD"> SD</button>
+            <button class="roleButton" id="FA"> FA </button>
+            <button class="roleButton" id="MC"> MC </button>
+
+            <button class="instanceButton" id="1"> 1</button>
+            <button class="instanceButton" id="2"> 2</button>
+            <button class="instanceButton" id="3"> 3</button>
+            <button class="instanceButton" id="4"> 4</button>
+
+            <button class="sideButton" id="main"> Main </button>
+            <button class="sideButton" id="asst"> Asst </button>
+        </div>
+        <div  class="rightContainer"> 
+            <p id="rightLabel"> FUNCTION</p>
+            <button class="functionButton" id="logOff"> Log Off </button>
+            <button class="functionButton" id="changeMode"> Mode </button>
+            <button class="functionButton" id="changeRole"> Role </button>
+            <button class="functionButton" id="monitor"> Monitor </button>
+
+        </div>
+        
+        <script src="monitor.js" async defer></script>
+    </body>
+    <footer>
+        <button class="footerButton" id="roleButton" onclick="location.href='monitor.html'"> Role</button>
+        <button class="footerButton" id="mainButton"> Main</button>
+        <button class="footerButton" id="radioButton"> Radio</button>
+        <button class="footerButton" id="phoneButton"> Phone</button>
+        <button class="footerButton" id="intercomButton"> Intercom</button>
+        <button class="footerButton" id="settingsButton"> Settings</button>
+        <button class="footerButton" id="homeButton" onclick="location.href='menu.html'">HOME</button>
+    </footer>
+</html>
